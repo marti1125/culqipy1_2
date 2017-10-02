@@ -39,11 +39,11 @@ class BaseResource:
     URL = None
 
     @classmethod
-    def create(cls, body):
+    def crear(cls, body):
         return Operation.create(cls.URL, body)
 
 
-class Cargos(BaseResource):
+class Cargo(BaseResource):
 
     URL = "/cargos"
 
@@ -53,6 +53,6 @@ class Plan(BaseResource):
     URL = "/planes"
 
 
-class Suscripciones(BaseResource):
+class Suscripcions(BaseResource):
 
     URL = "/suscripciones"
