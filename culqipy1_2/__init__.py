@@ -1,16 +1,9 @@
-from culqipy.resource import (
-    Token,
-    Charge,
+from culqipy1_2.resource import (
+    Cargo,
     Plan,
-    Subscription,
-    Refund,
-    Iins,
-    Card,
-    Event,
-    Customer,
-    Transfer,
+    Suscripcion
 )
-from culqipy.utils import Util
+from culqipy1_2.utils import Util
 
 # Configuration variables.
 API_URL_INTEG = "https://integ-pago.culqi.com/api/v1"

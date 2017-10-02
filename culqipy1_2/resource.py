@@ -1,5 +1,3 @@
-import culqipy1_2
-
 from culqipy1_2.utils import RequestMethodError, Util
 
 
@@ -55,6 +53,6 @@ class Plan(BaseResource):
     URL = "/planes"
 
 
-class Suscripcions(BaseResource):
+class Suscripcion(BaseResource):
 
     URL = "/suscripciones"
