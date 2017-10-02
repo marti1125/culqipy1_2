@@ -1,3 +1,5 @@
+import culqipy1_2
+
 from culqipy1_2.utils import RequestMethodError, Util
 
 
